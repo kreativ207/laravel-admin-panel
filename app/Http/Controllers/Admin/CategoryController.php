@@ -97,6 +97,6 @@ class CategoryController extends Controller
     {
         $category->delete();
 
-        return redirect()->back()->withSuccess("Category \"title\" delete success!");
+        return redirect()->back()->withSuccess("Category \"$category->title\" delete success!");
     }
 }
