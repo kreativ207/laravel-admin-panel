@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Admin\HomeController;
 use App\Http\Controllers\Admin\CategoryController;
+use App\Http\Controllers\Admin\PostController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -25,6 +26,7 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 Route::middleware(['admin.middleware:admin,/home', 'role:admin'])->prefix('admin_panel')->group(function () {
     Route::get('/', [HomeController::class, 'index'])->name('homeAdmin');
     Route::resource('/category', CategoryController::class);
+    Route::resource('/post', PostController::class);
 });
 
 

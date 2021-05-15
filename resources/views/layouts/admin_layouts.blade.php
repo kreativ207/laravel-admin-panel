@@ -25,6 +25,8 @@
     <link rel="stylesheet" href="/admin/plugins/daterangepicker/daterangepicker.css">
     <!-- summernote -->
     <link rel="stylesheet" href="/admin/plugins/summernote/summernote-bs4.min.css">
+    <!-- Elfinder CSS -->
+    <link href="/admin/dist/css/colorbox.css" rel="stylesheet">
 </head>
 <body class="hold-transition sidebar-mini layout-fixed">
 <div class="wrapper">
@@ -91,12 +93,12 @@
                         <ul class="nav nav-treeview">
                             <li class="nav-item">
                                 <a href="./index.html" class="nav-link">
-                                    <p>All articles blog</p>
+                                    <p>All post</p>
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="./index2.html" class="nav-link">
-                                    <p>Add articles blog</p>
+                                <a href="{{route('post.create')}}" class="nav-link">
+                                    <p>Add post</p>
                                 </a>
                             </li>
                         </ul>
@@ -184,6 +186,10 @@
 <script src="/admin/dist/js/demo.js"></script>
 <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
 <script src="/admin/dist/js/pages/dashboard.js"></script>
+<!-- Elfinder JS -->
+<script type="text/javascript" src="/admin/dist/js/jquery.colorbox-min.js"></script>
+<script src="https://cdn.tiny.cloud/1/vdtwa6mlr858k0wmaepu0tr7upozp4g6un0t8ljjcuv2bufw/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
+<script type="text/javascript" src="/packages/barryvdh/elfinder/js/standalonepopup.js"></script>
 <!-- Custom JS -->
 <script src="/admin/admin.js"></script>
 </body>

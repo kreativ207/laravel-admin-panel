@@ -116,6 +116,12 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/myclabs/deep-copy" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/mockery/mockery" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/spatie/laravel-permission" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/studio-42/elfinder" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/psr/cache" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/league/flysystem-cached-adapter" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/barryvdh/elfinder-flysystem-driver" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/barryvdh/laravel-elfinder" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/intervention/image" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
