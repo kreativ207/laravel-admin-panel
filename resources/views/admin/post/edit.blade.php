@@ -50,7 +50,7 @@
 
                                 <div class="form-group">
                                     <label for="feature_image">Image of article</label>
-                                    <img src="\{{$post->img}}" alt="" class="img-uploaded" style="display: block; width: 300px">
+                                    <img src="{{$post->img}}" alt="" class="img-uploaded" style="display: block; width: 300px">
                                     <input type="text" name="img" class="form-control" id="feature_image" value="{{$post->img}}" readonly>
                                     <a href="" class="btn btn-primary mt-2 popup_selector" data-inputid="feature_image">Select Image</a>
                                 </div>

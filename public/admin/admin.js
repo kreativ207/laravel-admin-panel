@@ -22,6 +22,7 @@ $(document).ready(function () {
         plugins: 'a11ychecker advcode casechange formatpainter linkchecker autolink lists checklist image media mediaembed pageembed permanentpen powerpaste table advtable tinymcespellchecker',
         toolbar: 'a11ycheck addcomment showcomments casechange checklist code formatpainter pageembed permanentpen table',
         toolbar_mode: 'floating',
+        relative_urls: false,
         file_picker_callback : elFinderBrowser
     });
 
